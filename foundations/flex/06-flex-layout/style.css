@@ -2,12 +2,17 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   height: 100vh;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
 }
 
 .header {
@@ -15,7 +20,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
+  height: 50px;
   padding: 10px 25px;
 }
 
@@ -31,6 +36,11 @@ ul a {
   text-decoration: none;
   color: rgb(102, 98, 98);
 }
+
+.content {
+  text-align: center;
+}
+
 img {
   width: 600px;
 }
@@ -40,6 +50,9 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 12px 20px;
+  font-weight: 600;
+  color: rgb(59, 55, 55) ;
 }
 
 input {
@@ -47,4 +60,5 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+  margin-bottom: 15px;
 }
