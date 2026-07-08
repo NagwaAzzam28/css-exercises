@@ -15,7 +15,8 @@ body {
   
 }
 
-.header {
+.header, 
+.footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -25,7 +26,8 @@ body {
 }
 
 
-.header ul {
+.header ul,
+.footer ul {
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -50,7 +52,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  padding: 12px 20px;
+  padding: 10px 18px;
+  margin: 0 1px;
   font-weight: 600;
   color: rgb(59, 55, 55) ;
 }
@@ -60,5 +63,9 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
-  margin-bottom: 15px;
+  margin-bottom: 16px;
+}
+
+.footer {
+  background-color: #eeeeee;
 }
